@@ -389,13 +389,6 @@ img {
 }
 
 /*===================== About ==================*/
-.about__img {
-  width: 170px;
-  border-radius: 500%;
-  justify-self: center;
-  align-self: center;
-  /* border: 1px solid #fff; */
-}
 
 .about__description {
   text-align: center;
@@ -965,7 +958,6 @@ img {
     justify-self: center;
   }
 
-  .about__container,
   .skills__container,
   .project__container,
   .contact__container,
@@ -1053,19 +1045,8 @@ img {
   .about__container {
     column-gap: 5rem;
   }
-
-  .about__img {
-    width: 300px;
-  }
-
-  .about__description {
-    text-align: initial;
-  }
   .about__info {
     justify-content: space-between;
-  }
-  .about__buttons {
-    justify-content: initial;
   }
 
   .skills__icon,
